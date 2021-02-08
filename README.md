@@ -4,21 +4,21 @@ Make your own nick names on files and jump to them inside vim with autocompletio
 
 ## Commands
 
-:Nick &ltnickName\>
+:Nick \<nickName\>
 
-:NickSave <nickname>
+:NickSave \<nickname\>
 
-:NickDelete <nickName>
+:NickDelete \<nickName\>
 
 all with autocompletion
 
 
 ## options
 
-" where to store nickNames (default same dir as plugin)
-g:nickNameFiles = "<path>"
+" where to store nickNames (default same dir as plugin)  
+g:nickNameFiles = "\<path\>"
 
-nnoremap <leader>n :Nick<space>
+nnoremap <leader>n :Nick\<space\>
 
 
 
