@@ -4,9 +4,9 @@ Make your own nick names on files and jump to them inside vim with autocompletio
 
 ## Commands
 
-:Nick <nickName>
+:Nick &ltnickName\>
 
-:nickSave <nickname>
+:NickSave <nickname>
 
 :NickDelete <nickName>
 
