@@ -17,10 +17,12 @@ all with autocompletion
 
 Put this is your vimrc if you like:
 
+``` vim
 " where to store nickNames (default same dir as plugin)  
-g:nickNameFiles = "\<path to nickNameFiles.txt\>"
+" g:nickNameFiles = "\<path to nickNameFiles.txt\>"
 
 nnoremap <leader>n :Nick\<space\>
+```
 
 ## Install
 
