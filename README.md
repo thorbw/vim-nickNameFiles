@@ -13,12 +13,10 @@ Make your own nick names on files and jump to them inside vim with autocompletio
 :NickDelete myNickName
 ```
 
-all with autocompletion
-
 
 ## Options
 
-Put this is your vimrc if you like:
+Put this in your vimrc if you like:
 
 ``` vim
 " where to store nickNames (default same directory as plugin)  
