@@ -4,11 +4,14 @@ Make your own nick names on files and jump to them inside vim with autocompletio
 
 ## Commands
 
+
+```
 :Nick myNickName
 
 :NickSave myNickName
 
 :NickDelete myNickName
+```
 
 all with autocompletion
 
