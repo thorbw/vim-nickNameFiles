@@ -29,7 +29,7 @@ nnoremap <leader>n :Nick<space>
 
 ## Install
 
-Use your favorite package manager or use Vim's built in package support.
+Use your favorite package manager or use Vim's built in package support:
 
 ``` bash
 mkdir -p ~/.vim/pack/plugins/start
