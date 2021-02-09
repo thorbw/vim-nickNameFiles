@@ -15,10 +15,21 @@ all with autocompletion
 
 ## Options
 
+Put this is your vimrc if you like:
+
 " where to store nickNames (default same dir as plugin)  
-g:nickNameFiles = "\<path\>"
+g:nickNameFiles = "\<path to nickNameFiles.txt\>"
 
 nnoremap <leader>n :Nick\<space\>
 
+## Install
+
+Use your favorite package manager or use Vim's built in package support.
+
+``` bash
+mkdir -p ~/.vim/pack/plugins/start
+cd ~/.vim/pack/plugins/start
+git clone https://github.com/thorbw/vim-nickNameFiles
+```
 
 
